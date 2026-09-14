@@ -1,6 +1,8 @@
 # Prompts Used
 
-This is a chronological log of the prompts used to build this app, kept for reference.
+Movie search app built with Vite, React, TypeScript, MVVM, OMDb API, Firebase Auth, and Realtime Database.
+
+This README lists the prompts used to build the application, in order.
 
 ## Project scaffolding
 
