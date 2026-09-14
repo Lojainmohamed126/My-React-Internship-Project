@@ -42,7 +42,6 @@ This README lists the prompts used to build the application, in order.
 ## Styling & layout
 
 24. "where is homeview.css"
-25. "yes create the message i sent to tou inclued home view.css"
 
 ## Wiring the header search into Home
 
@@ -93,7 +92,6 @@ This README lists the prompts used to build the application, in order.
 55. "where is authroute"
 56. "yes" *(consolidate the two route guards into one `AuthRoute` component)*
 57. "If I am unauth and click favourite button from the home page, redirect me to the favourites page"
-58. "C:\Users\lojai\OneDrive\Desktop\Internship React project\src\pages\Home\useHomeViewModel.ts move this to viewModel" *(move favourite-adding logic out of HomeView and into the ViewModel)*
 
 ## User-scoped favourites & logout
 
