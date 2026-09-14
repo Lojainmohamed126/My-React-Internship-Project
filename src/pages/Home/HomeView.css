@@ -1,0 +1,31 @@
+.home-view {
+  padding: 2rem;
+}
+
+.home-view__status {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9375rem;
+}
+
+.home-view__error {
+  color: #ff8a8a;
+  font-size: 0.9375rem;
+}
+
+.home-view__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .home-view {
+    padding: 1rem;
+  }
+
+  .home-view__grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+}
