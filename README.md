@@ -98,10 +98,4 @@ This is a chronological log of the prompts used to build this app, kept for refe
 59. "Update the existing favourites service so favourites are stored under the signed-in user's profile. Use this Real time DB structure: users/{userId}/favourites/{imdbID}. Update the existing functions so they receive userId: addFavourite(userId, movie), removeFavourite(userId, imdbID), getFavourites(userId). Requirements: use userId as the parent user document ID; use imdbID as the favourite document ID; preserve the existing function behaviour; do not use React hooks; do not access auth.currentUser inside the service; throw a readable error when userId is missing."
 60. "add logout button as well and connect it with logout function"
 
-## Bug fixes & final touches
 
-61. "why my http://localhost:5174/ is blank"
-62. "where is the login feature"
-63. "i want login in the header yes"
-64. "create me in read me all prompts that we used for this app"
-65. *(this prompt)* — added the missing project-scaffolding prompts (items 1-8) from before this session's log started
